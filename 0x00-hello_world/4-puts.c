@@ -1,0 +1,12 @@
+#include <stdio>
+
+/**
+ * main - Go on printing
+ *
+ * Return: Always 0 (Moving)
+ */
+int main(void)
+{
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}

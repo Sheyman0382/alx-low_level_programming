@@ -3,20 +3,22 @@
 /**
  * main - Prints the size of many var types
  *
- * Return: Always 0 (Moving) 
+ * Description: using the main function
+ * this program prints "programming is like a multilingual pizzle 
+ * Return: 0 
  */
 int main(void)
 {
-	char a;
-	int b;
-	long int c;
-	long long int d;
-	float e;
+	char c;
+	int i;
+	long int li;
+	long long int lii;
+	float f;
 
-	printf("Size of a char: %d byte(s)\n", sizeof(a));
-	printf("Size of an int: %d byte(s)\n", sizeof(b));
-	printf("Size of a long int: %d byte(s)\n", sizeof(c));
-	printf("Size of a long long int: %d byte(s)\n", sizeof(d));
-	printf("Size of a float: %d bytes(s)\n", sizeof(e));
+	printf("Size of a char: %d byte(s)\n", sizeof(c));
+	printf("Size of an int: %d byte(s)\n", sizeof(i));
+	printf("Size of a long int: %d byte(s)\n", sizeof(li));
+	printf("Size of a long long int: %d byte(s)\n", sizeof(lii));
+	printf("Size of a float: %d bytes(s)\n", sizeof(f));
 	return (0);
 }

@@ -3,7 +3,9 @@
 /**
  * main - Print exactly 
  *
- * Return: Always 0 (Moving it)
+ * Dessciption: using the main function
+ * this program prints "programmig is like building a multilingual puzzle"
+ * Return: 0
  */
 int main(void)
 {

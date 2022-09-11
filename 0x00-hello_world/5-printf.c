@@ -4,8 +4,7 @@
  * main - Print exactly 
  *
  * Dessciption: using the main function
- * this program prints "programmig is like building a multilingual puzzle"
- * Return: 0
+ * this program prints
  */
 int main(void)
 {

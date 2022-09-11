@@ -1,11 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - Prints the size of many var types
- *
- * Description: using the main function
- * this program prints "programming is like a multilingual pizzle 
- * Return: 0 
+ * main - Prints the size of many var types*n
+ * Return: Always 0 (Successful)
  */
 int main(void)
 {

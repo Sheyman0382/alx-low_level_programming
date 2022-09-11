@@ -2,8 +2,8 @@
 
 /**
  * main - Print exactly
- * Dessciption: using the main function
- * this program prints
+ * Description: using the main function
+ * Return: Always 0 (Success)
  */
 int main(void)
 {

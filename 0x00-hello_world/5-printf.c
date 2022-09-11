@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Print exactly 
- *
+ * main - Print exactly
  * Dessciption: using the main function
  * this program prints
  */

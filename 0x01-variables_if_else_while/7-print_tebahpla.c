@@ -11,13 +11,11 @@
 
 int main(void)
 {
-	int c;
+	char c = 'a';
 
-	for (c = 48; c <= 57; c++)
+	for (c = 'z'; c >= 'a'; c--)
 	{
 		putchar(c);
-		putchar(',');
-		putchar(' ');
 	}
 	putchar('\n');
 	return (0);

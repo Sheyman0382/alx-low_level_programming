@@ -9,12 +9,22 @@
   * Return: 0 Always (successful)
   */
 
-int main(void);
+int main(void)
 {
-	char c;
+	char c = 'a';
 
-	while(c = 'a'; c <= 'z'; c++)
+	/*
+	while (c <= 'z')
+	{
 		putchar(c);
-	putchar("\n");
+		c = c + 1;
+	
+	}*/
+
+	for (c = 'a'; c <= 'z'; c++)
+	{
+		putchar(c);
+	}
+	putchar('\n');
 	return (0);
 }

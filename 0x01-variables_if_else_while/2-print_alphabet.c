@@ -13,14 +13,6 @@ int main(void)
 {
 	char c = 'a';
 
-	/*
-	while (c <= 'z')
-	{
-		putchar(c);
-		c = c + 1;
-	
-	}*/
-
 	for (c = 'a'; c <= 'z'; c++)
 	{
 		putchar(c);

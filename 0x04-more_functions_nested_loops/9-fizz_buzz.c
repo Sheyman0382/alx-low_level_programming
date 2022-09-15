@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-99/**
+/**
 *main - program that prints either number
 *or fizz or buzz or fizzBuzz
 *

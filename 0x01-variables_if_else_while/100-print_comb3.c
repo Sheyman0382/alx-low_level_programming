@@ -22,9 +22,6 @@ int main(void)
 			{
 				putchar(c + '0');
 				putchar(j + '0');
-			}
-			if (c != 9 && c != 0)
-			{
 				putchar(',');
 				putchar(' ');
 			}

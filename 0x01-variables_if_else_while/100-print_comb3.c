@@ -21,7 +21,7 @@ int main(void)
 			if (j > c)
 			{
 				putchar(c + '0');
-			|	putchar(j + '0');
+				putchar(j + '0');
 			
 				putchar(',');
 				putchar(' ');

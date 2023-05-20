@@ -7,16 +7,23 @@
 */
 int main(void)
 {
-	int digit;
+	int i, j;
 
-	for (digit = '0'; digit <= '9'; digit++)
+	for (i = '0'; i <= '9'; i++)
 	{
-		putchar(digit);
-		if (digit == '9')
-			continue;
-
-		putchar(',');
-		putchar(' ');
+		for (j = '0'; j <= '9'; j++)
+		{
+			if (!(i >= j))
+			{
+				putchar(i);
+				putchar(j);
+				if ((i != '8') || (j != '9'))
+				{
+					putchar(',');
+					putchar(' ');
+				}
+			}
+		}
 	}
 	putchar('\n');
 	return (0);

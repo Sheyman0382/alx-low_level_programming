@@ -4,7 +4,7 @@
  * leet - a function that encodes a string into 1337
  *
  * @str: a string to be converted or worked on
- * return: Always(0)
+ * Return: Return the address of string
  */
 
 char *leet(char *str)

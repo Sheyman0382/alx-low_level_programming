@@ -22,7 +22,8 @@ char *_strchr(char *s, char c)
 			return (j + i);
 		}
 	}
-	return (s + i);
+	if ((s[i] == c) || (s[i] != c))
+		return (s + i);
 
 	return (0);
 }

@@ -6,7 +6,7 @@
  * @dest: destination of memory copied from source
  * @src: memory source
  * @n: number  of bytes of memory
- * 
+ *
  * Return: Always(0)
  */
 

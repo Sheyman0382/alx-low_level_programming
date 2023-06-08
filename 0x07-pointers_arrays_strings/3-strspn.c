@@ -21,10 +21,11 @@ unsigned int _strspn(char *s, char *accept)
 			if (s[i] == accept[j])
 			{
 				count++;
-				break;
 			}
+			if (s[i] == accept[j])
+				break;
 		}
-		if ((s[i] != accept[i]) && (accept[i] == '\0'))
+		if ((s[i] != accept[i]) && (accept[j] == '\0'))
 			break;
 	}
 

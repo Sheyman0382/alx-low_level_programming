@@ -30,9 +30,9 @@ char *_strstr(char *haystack, char *needle)
 			if (needle[j + 1] == '\0')
 				break;
 		}
-		if (sb[k-1] == needle[j] && needle[j + 1] == '\0')
+		if (sb[k - 1] == needle[j] && needle[j + 1] == '\0')
 		{
-		 	return (sb);
+			return (sb);
 		}
 	}
 	return (0);

@@ -1,6 +1,4 @@
-#include "holberton.h"
-
-#include "holberton.h"
+#include "main.h"
 /**
   * _lenght - checks the length of a string
   * @s: is the string

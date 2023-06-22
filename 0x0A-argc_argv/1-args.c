@@ -2,7 +2,7 @@
 
 /**
  * main - a program that prints the total number of command
- * line arguments entered
+ * line arguments entered apart from the program name
  *
  * @argc: command line argument count
  * @argv: command line argumnt varariable
@@ -12,6 +12,6 @@
 int main(int argc, char *argv[])
 {
 	(void)argv;
-	printf("%d\n", argc);
+	printf("%d\n", argc -1);
 	return (0);
 }

@@ -7,7 +7,7 @@
  * @s: pointer to a string parameter
  * Return: Always (0)
  */
- 
+
 int _strlen_recursion(char *s)
 {
 	int count = 0;

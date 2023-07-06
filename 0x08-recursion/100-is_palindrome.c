@@ -38,7 +38,7 @@ int checkp(int i, int lg, char *s)
 			return (1);
 		}
 	}
-	return(1);
+	return (1);
 }
 
 /**

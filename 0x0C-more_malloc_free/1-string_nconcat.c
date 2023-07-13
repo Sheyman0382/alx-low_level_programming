@@ -27,12 +27,11 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	}
 	for (i = 0; s2[i] != '\0'; i++)
 		count2++;
-	if (n >= count2)
-		len = count1 + count2;
-	else if (count1 == 0)
-		len = n;
-	else if (count2 == 0)
-		len = count1;
+	if (n > count2)
+	{
+		n = count2;
+		len = count2 + count1;
+	}
 	else
 		len = count1 + n;
 

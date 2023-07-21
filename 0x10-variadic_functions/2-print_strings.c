@@ -16,21 +16,16 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	unsigned int i;
 
 	va_start(sheyman, n);
-	if (separator != NULL)
+	for (i = 0; i < n; i++)
 	{
-		for (i = 0; i < n; i++)
-		{
-			j = va_arg(sheyman, char *);
-			if (j == NULL)
-				printf("nil%s", separator);
-			if (i != (n - 1) && j != NULL)
-			{
-				printf("%s%s", j, separator);
-			}
-			else
-			{
-				printf("%s\n", j);
-			}
-		}
+		j = va_arg(sheyman, char *);
+		if (j == NULL && i != (n - 1))
+			printf("nil%s", separator);
+		else if (j != NULL && i != (n - 1))
+			printf("%s%s", j, separator);
+		else
+			printf("%s", j); 
 	}
+	printf("\n");
+	va_end(sheyman);
 }

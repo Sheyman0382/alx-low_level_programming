@@ -23,10 +23,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		{
 			printf("%d%s", j, separator);
 		}
-		else
-		{
-			printf("%d\n", j);
-		}
+		printf("%d\n", j);
 	}
 	va_end(sheyman);
 }

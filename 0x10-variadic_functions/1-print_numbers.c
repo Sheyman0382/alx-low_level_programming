@@ -16,7 +16,6 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	int j;
 
 	va_start(sheyman, n);
-<<<<<<< HEAD
 	for (i = 0; i < n; i++)
 	{
 		j = va_arg(sheyman, int);
@@ -30,21 +29,4 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 		}
 	}
 	va_end(sheyman);
-=======
-	if (separator != NULL)
-	{
-		for (i = 0; i < n; i++)
-		{
-			j = va_arg(sheyman, int);
-			if (i != n - 1)
-			{
-				printf("%d%s", j, separator);
-			}
-			else
-			{
-				printf("%d\n", j);
-			}
-		}
-	}
->>>>>>> 831d748d671f497dffe69b50ed503cee963a810f
 }

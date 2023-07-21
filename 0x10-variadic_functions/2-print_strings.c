@@ -1,9 +1,9 @@
 #include "variadic_functions.h"
 
 /**
- * print_string - a function that prints a string
+ * print_strings - a function that prints a string
  *
- * @separartor: the string that separates the strings from each other
+ * @separator: the string that separates the strings from each other
  * @n: the number of strings to be printed
  *
  * Return: The return type of the function is void

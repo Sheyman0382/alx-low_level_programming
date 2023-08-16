@@ -2,7 +2,7 @@
 
 /**
   * check_string - a function to check if a string contains a binary digits
-  * 
+  *
   * @str: a pointer to a string of digits
   * Return: either 0 or 1
   */
@@ -10,6 +10,7 @@
 int check_string(const char *str)
 {
 	int i;
+
 	if (str == NULL)
 		return (0);
 
@@ -22,12 +23,11 @@ int check_string(const char *str)
 }
 
 /**
-  * _strlem - a function that returns the length of a string
-  * 
-  * ptr: a pointer to a string of digits
-  * 
-  * Return: an integer
-  */
+ * _strlen - a function that returns the length of a string
+ *
+ * @ptr: a pointer to a string of digits
+ * Return: an integer
+ */
 
 int _strlen(const char *ptr)
 {
@@ -40,7 +40,7 @@ int _strlen(const char *ptr)
 
 /**
   * power - a function that finds the exponential of a base number
-
+  *
   * @a: a placeholder for the base value
   * @b: a placeholder for the power to which the base number is to be raised
   * Return: an interger
@@ -74,7 +74,7 @@ unsigned int binary_to_uint(const char *b)
 	a = check_string(b);
 	if (a == 0)
 		return (0);
-	
+
 	len = _strlen(b);
 
 	while (len > 0)

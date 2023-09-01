@@ -1,10 +1,10 @@
 #include "main.h"
 
-/*
+/**
  * print_binary - a function that prints the binary value
  * of a digit
  *
- *@n: the digit to be converted
+ * @n: the digit to be converted
  * Return: Nothing
  */
 

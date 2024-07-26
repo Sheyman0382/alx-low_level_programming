@@ -10,7 +10,7 @@
 *Return: A pointer to the function corresponding to
 *the operator given in parameter
 */
-int (*get_op_func(char *s))(int, int)
+shey get_op_func(char *s)
 {
 
 op_t ops[] = {

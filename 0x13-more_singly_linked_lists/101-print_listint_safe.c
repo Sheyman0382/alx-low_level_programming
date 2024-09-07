@@ -10,7 +10,8 @@
 size_t print_listint_safe(const listint_t *head)
 {
 	size_t count = 0;
-	listint_t *fast = head, *slow = head;
+	const listint_t *fast = head;
+	const listint_t *slow = head;
 
 	while (slow != NULL)
 	{
@@ -30,6 +31,4 @@ size_t print_listint_safe(const listint_t *head)
 		}
 	}
 	return (count);
-}
-
 }
